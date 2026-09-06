@@ -1,109 +1,44 @@
-<div align="center">
+# Paradigmas de Linguagens
 
-# 🖥️ Pesquisa sobre a Linguagem Delphi
+Repositório de atividades da disciplina **Paradigmas de Linguagens de Programação**.
 
-### Disciplina de Linguagens de Programação
+## Organização das aulas
 
-**Linguagem escolhida:** Delphi (Object Pascal)
+| Aula | Conteúdo | Arquivos principais |
+| --- | --- | --- |
+| [Aula 000](Aula000/) | Pesquisa sobre Delphi/Object Pascal, paradigmas e primeiros programas | `Atividade.md`, `OlaMundo.pas` e `Tabuada.pas` |
+| [Aula 002](Aula002/) | História, evolução e paradigmas das linguagens de programação | `Atividade.md` |
+| [Aula 003](Aula003/) | Gramática formal e derivação de uma instrução em C# | `Atividade.md` e `Exemplo.cs` |
+| [Aula 004](Aula004/) | Análise léxica e sintática de uma atribuição | `README.md` e código Java em `src/` |
 
-</div>
+> A numeração segue a sequência das atividades disponibilizadas na disciplina; por isso não há uma pasta `Aula001` neste repositório.
 
----
+## Como executar os exemplos
 
-## 📚 Sobre a linguagem
+### Object Pascal
 
-O **Delphi** é uma linguagem de programação baseada em **Object Pascal**. Ela foi criada originalmente pela Borland e atualmente é mantida pela Embarcadero.
+Com o Free Pascal instalado:
 
-A linguagem é bastante utilizada no desenvolvimento de sistemas comerciais, sistemas de gestão, ERPs e aplicações desktop. Uma de suas principais características é permitir a criação rápida de programas com interfaces gráficas.
+```bash
+fpc Aula000/OlaMundo.pas
+fpc Aula000/Tabuada.pas
+```
 
----
+### C#
 
-## 💡 Paradigmas da linguagem
+O arquivo `Aula003/Exemplo.cs` pode ser executado em uma instalação do .NET SDK ou em um compilador C# on-line.
 
-Delphi suporta diferentes paradigmas de programação:
+### Java
 
-- 🧱 Programação Estruturada
-- ⚙️ Programação Imperativa
-- 🧩 Programação Orientada a Objetos
-- 🖱️ Programação Orientada a Eventos
+Dentro da pasta `Aula004`:
 
----
+```bash
+javac -encoding UTF-8 -d out src/*.java
+java -cp out Main
+```
 
-## 📁 Atividades desenvolvidas
+Também é possível informar outra sentença para análise:
 
-Foram desenvolvidos dois programas separados em Delphi:
-
-### 👋 Olá, Mundo!
-
-Programa simples que exibe a mensagem **“Olá, Mundo!”** no console.
-
-Arquivo correspondente: `OlaMundo.pas`
-
-### 🔢 Tabuada
-
-Programa que solicita um número ao usuário e apresenta sua tabuada de 1 até 10.
-
-Arquivo correspondente: `Tabuada.pas`
-
----
-
-## 💼 Vaga real
-
-**Cargo:** Desenvolvedor Delphi
-
-### Conhecimentos comuns para a área
-
-- Desenvolvimento com Delphi e Object Pascal;
-- Conhecimento em bancos de dados relacionais;
-- Utilização da linguagem SQL;
-- Desenvolvimento e manutenção de sistemas;
-- Lógica de programação;
-- Trabalho em equipe;
-- Manutenção de sistemas empresariais e legados.
-
----
-
-## 💰 Faixa salarial
-
-A remuneração de um desenvolvedor Delphi pode variar conforme a experiência, a empresa e a região.
-
-| Nível | Faixa salarial estimada |
-|:------|:-----------------------:|
-| 🟢 Júnior | R$ 3.500 a R$ 6.000 |
-| 🟡 Pleno | R$ 6.000 a R$ 9.000 |
-| 🔴 Sênior | R$ 9.000 a R$ 15.000 ou mais |
-
----
-
-## ✅ Vantagens do Delphi
-
-- Alta produtividade no desenvolvimento;
-- Facilidade para criar interfaces gráficas;
-- Bom desempenho em aplicações desktop;
-- Forte presença em sistemas empresariais;
-- Suporte à Programação Orientada a Objetos.
-
----
-
-## ⚠️ Desvantagens do Delphi
-
-- Comunidade menor em comparação com linguagens como Java, Python e C#;
-- Menor utilização em novos projetos;
-- Grande parte das vagas está relacionada à manutenção de sistemas existentes;
-- Menor presença no desenvolvimento web moderno.
-
----
-
-## 📝 Conclusão
-
-O Delphi continua sendo utilizado principalmente em sistemas corporativos, aplicações comerciais e sistemas legados. Apesar de não estar entre as linguagens mais populares atualmente, ainda existe mercado de trabalho para profissionais especializados em Delphi.
-
-A atividade permitiu conhecer a sintaxe básica da linguagem por meio dos programas **Olá, Mundo!** e **Tabuada**, além de pesquisar seus paradigmas, sua utilização profissional e uma vaga real disponível no mercado.
-
----
-
-<div align="center">
-
-**Atividade desenvolvida para a disciplina de Linguagens de Programação 🚀**
-
-</div>
+```bash
+java -cp out Main "int resultado = valor + 92;"
+```

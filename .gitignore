@@ -1,0 +1,10 @@
+# Saídas de compilação
+*.class
+out/
+bin/
+obj/
+
+# Configurações locais de IDE
+.idea/
+.vscode/
+*.iml
