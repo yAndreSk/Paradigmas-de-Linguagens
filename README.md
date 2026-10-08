@@ -10,6 +10,10 @@ Repositório de atividades da disciplina **Paradigmas de Linguagens de Programa�
 | [Aula 002](Aula002/) | História, evolução e paradigmas das linguagens de programação | `Atividade.md` |
 | [Aula 003](Aula003/) | Gramática formal e derivação de uma instrução em C# | `Atividade.md` e `Exemplo.cs` |
 | [Aula 004](Aula004/) | Análise léxica e sintática de uma atribuição | `README.md` e código Java em `src/` |
+| [Aula 006](Aula006/) | Tipos de dados e comportamentos específicos das linguagens | `Atividade.md` |
+| [Aula 007](Aula007/) | Expressões, atribuição e estruturas de controle | `README.md` |
+| [Aula 008](Aula008/) | Subprogramas, parâmetros, escopo e ownership | `Atividade.md` |
+| [Aula 009](Aula009/) | Vinculação, sobrescrita e polimorfismo | `Atividade.md` |
 
 > A numeração segue a sequência das atividades disponibilizadas na disciplina; por isso não há uma pasta `Aula001` neste repositório.
 
@@ -42,3 +46,5 @@ Também é possível informar outra sentença para análise:
 ```bash
 java -cp out Main "int resultado = valor + 92;"
 ```
+
+As atividades das aulas 006 a 009 estão documentadas em Markdown, com resultados esperados e explicações dos conceitos envolvidos.
